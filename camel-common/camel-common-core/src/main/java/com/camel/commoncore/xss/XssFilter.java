@@ -1,6 +1,7 @@
 package com.camel.commoncore.xss;
 
-import com.ruoyi.common.utils.StringUtils;
+
+import com.camel.commoncore.utils.StringUtils;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

@@ -12,7 +12,6 @@
         <module>camel-common</module>
         <module>camel-gateway</module>
         <module>camel-demo</module>
-        <module>camel-demo/camel-thread-demo</module>
     </modules>
 
     <properties>

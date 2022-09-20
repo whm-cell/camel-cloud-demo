@@ -1,2 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  
+  com.camel.commoncore.config.ServerConfig,\
+  com.camel.commoncore.utils.IdSnowflake,\
+  com.camel.commoncore.utils.SpringUtils

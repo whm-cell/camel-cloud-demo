@@ -2,7 +2,7 @@ package com.camel.commoncore.utils;
 
 import cn.hutool.core.text.StrFormatter;
 import cn.hutool.core.util.StrUtil;
-import com.camel.commoncore.constant.CommonConstants;
+import com.camel.commoncore.constant.CommonCamelConstants;
 import org.springframework.util.AntPathMatcher;
 
 import java.util.*;
@@ -267,7 +267,7 @@ public class StringUtils extends org.apache.commons.lang3.StringUtils
      */
     public static boolean ishttp(String link)
     {
-        return StringUtils.startsWithAny(link, CommonConstants.HTTP, CommonConstants.HTTPS);
+        return StringUtils.startsWithAny(link, CommonCamelConstants.HTTP, CommonCamelConstants.HTTPS);
     }
 
     /**

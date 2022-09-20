@@ -1,6 +1,7 @@
 package com.camel.commoncore.xss;
 
-import com.ruoyi.common.utils.html.EscapeUtil;
+
+import com.camel.commoncore.utils.html.EscapeUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;

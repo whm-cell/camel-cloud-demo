@@ -3,7 +3,8 @@ package com.camel.commoncore.utils;
 import cn.hutool.core.convert.Convert;
 import cn.hutool.extra.servlet.ServletUtil;
 import com.alibaba.fastjson.JSONObject;
-import com.camel.commoncore.constant.CommonConstants;
+import com.camel.commoncore.constant.CommonCamelConstants;
+import com.camel.commoncore.domain.R;
 import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -238,7 +239,7 @@ public class ServletUtils
     {
         try
         {
-            return URLEncoder.encode(str, CommonConstants.UTF8);
+            return URLEncoder.encode(str, CommonCamelConstants.UTF8);
         }
         catch (UnsupportedEncodingException e)
         {
@@ -256,7 +257,7 @@ public class ServletUtils
     {
         try
         {
-            return URLDecoder.decode(str, CommonConstants.UTF8);
+            return URLDecoder.decode(str, CommonCamelConstants.UTF8);
         }
         catch (UnsupportedEncodingException e)
         {

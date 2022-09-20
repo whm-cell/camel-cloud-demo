@@ -2,7 +2,7 @@ package com.camel.commoncore.context;
 
 import cn.hutool.core.convert.Convert;
 import com.alibaba.ttl.TransmittableThreadLocal;
-import com.camel.commoncore.constant.SecurityConstants;
+import com.camel.commoncore.constant.SecurityCamelConstants;
 import com.camel.commoncore.utils.StringUtils;
 
 import java.util.Map;
@@ -61,32 +61,32 @@ public class SecurityContextHolder
 
     public static Long getUserId()
     {
-        return Convert.toLong(get(SecurityConstants.DETAILS_USER_ID), 0L);
+        return Convert.toLong(get(SecurityCamelConstants.DETAILS_USER_ID), 0L);
     }
 
     public static void setUserId(String account)
     {
-        set(SecurityConstants.DETAILS_USER_ID, account);
+        set(SecurityCamelConstants.DETAILS_USER_ID, account);
     }
 
     public static String getUserName()
     {
-        return get(SecurityConstants.DETAILS_USERNAME);
+        return get(SecurityCamelConstants.DETAILS_USERNAME);
     }
 
     public static void setUserName(String username)
     {
-        set(SecurityConstants.DETAILS_USERNAME, username);
+        set(SecurityCamelConstants.DETAILS_USERNAME, username);
     }
 
     public static String getUserKey()
     {
-        return get(SecurityConstants.USER_KEY);
+        return get(SecurityCamelConstants.USER_KEY);
     }
 
     public static void setUserKey(String userKey)
     {
-        set(SecurityConstants.USER_KEY, userKey);
+        set(SecurityCamelConstants.USER_KEY, userKey);
     }
 
     public static void remove()

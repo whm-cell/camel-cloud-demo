@@ -1,6 +1,8 @@
 package com.camel.commoncore.utils;
 
 import cn.hutool.core.convert.Convert;
+import com.camel.commoncore.constant.SecurityCamelConstants;
+import com.camel.commoncore.constant.TokenCamelConstants;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -15,7 +17,7 @@ import java.util.Map;
  * @Version: 1.0
  */
 public class JwtUtils {
-    public static String secret = TokenConstants.SECRET;
+    public static String secret = TokenCamelConstants.SECRET;
 
     /**
      * 从数据声明生成令牌
@@ -49,7 +51,7 @@ public class JwtUtils {
     public static String getUserKey(String token)
     {
         Claims claims = parseToken(token);
-        return getValue(claims, SecurityConstants.USER_KEY);
+        return getValue(claims, SecurityCamelConstants.USER_KEY);
     }
 
     /**
@@ -60,7 +62,7 @@ public class JwtUtils {
      */
     public static String getUserKey(Claims claims)
     {
-        return getValue(claims, SecurityConstants.USER_KEY);
+        return getValue(claims, SecurityCamelConstants.USER_KEY);
     }
 
     /**
@@ -72,7 +74,7 @@ public class JwtUtils {
     public static String getUserId(String token)
     {
         Claims claims = parseToken(token);
-        return getValue(claims, SecurityConstants.DETAILS_USER_ID);
+        return getValue(claims, SecurityCamelConstants.DETAILS_USER_ID);
     }
 
     /**
@@ -83,7 +85,7 @@ public class JwtUtils {
      */
     public static String getUserId(Claims claims)
     {
-        return getValue(claims, SecurityConstants.DETAILS_USER_ID);
+        return getValue(claims, SecurityCamelConstants.DETAILS_USER_ID);
     }
 
     /**
@@ -95,7 +97,7 @@ public class JwtUtils {
     public static String getUserName(String token)
     {
         Claims claims = parseToken(token);
-        return getValue(claims, SecurityConstants.DETAILS_USERNAME);
+        return getValue(claims, SecurityCamelConstants.DETAILS_USERNAME);
     }
 
     /**
@@ -106,7 +108,7 @@ public class JwtUtils {
      */
     public static String getUserName(Claims claims)
     {
-        return getValue(claims, SecurityConstants.DETAILS_USERNAME);
+        return getValue(claims, SecurityCamelConstants.DETAILS_USERNAME);
     }
 
     /**

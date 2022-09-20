@@ -7,7 +7,7 @@ package com.camel.commoncore.constant;
  * @date: 2022/9/15 0015 15:13
  * @Version: 1.0
  */
-public class LoginCacheConstants {
+public class LoginCacheCamelConstants {
     /**
      * 缓存有效期，默认720（分钟）
      */

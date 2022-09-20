@@ -5,7 +5,7 @@ package com.camel.commoncore.constant;
  * 
  * @author haiming
  */
-public class HttpStatusConstants
+public class HttpStatusCamelConstants
 {
     /**
      * 操作成功

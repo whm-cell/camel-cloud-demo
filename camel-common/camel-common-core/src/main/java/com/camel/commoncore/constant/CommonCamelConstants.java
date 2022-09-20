@@ -7,7 +7,7 @@ package com.camel.commoncore.constant;
  * @date: 2022/9/15 0015 14:59
  * @Version: 1.0
  */
-public class CommonConstants {
+public class CommonCamelConstants {
     /**
      * UTF-8 字符集
      */

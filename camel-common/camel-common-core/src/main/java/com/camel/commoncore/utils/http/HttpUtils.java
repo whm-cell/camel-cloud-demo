@@ -1,6 +1,6 @@
 package com.camel.commoncore.utils.http;
 
-import com.camel.commoncore.constant.CommonConstants;
+import com.camel.commoncore.constant.CommonCamelConstants;
 import com.camel.commoncore.utils.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,7 +45,7 @@ public class HttpUtils {
      */
     public static String sendGet(String url, String param)
     {
-        return sendGet(url, param, CommonConstants.UTF8);
+        return sendGet(url, param, CommonCamelConstants.UTF8);
     }
 
 

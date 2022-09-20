@@ -1,6 +1,7 @@
 package com.camel.commoncore.utils.html;
 
-import com.ruoyi.common.utils.StringUtils;
+
+import com.camel.commoncore.utils.StringUtils;
 
 /**
  * 转义和反转义工具类

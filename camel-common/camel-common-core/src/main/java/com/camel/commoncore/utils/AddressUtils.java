@@ -1,7 +1,7 @@
 package com.camel.commoncore.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.camel.commoncore.constant.CommonConstants;
+import com.camel.commoncore.constant.CommonCamelConstants;
 import com.camel.commoncore.utils.http.HttpUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,7 +33,7 @@ public class AddressUtils
         {
             try
             {
-                String rspStr = HttpUtils.sendGet(IP_URL, "ip=" + ip + "&json=true", CommonConstants.GBK);
+                String rspStr = HttpUtils.sendGet(IP_URL, "ip=" + ip + "&json=true", CommonCamelConstants.GBK);
                 if (StringUtils.isEmpty(rspStr))
                 {
                     log.error("获取地理位置异常 {}", ip);

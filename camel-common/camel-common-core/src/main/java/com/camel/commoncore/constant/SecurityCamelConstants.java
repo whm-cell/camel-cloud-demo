@@ -5,7 +5,7 @@ package com.camel.commoncore.constant;
  * 
  * @author haiming
  */
-public class SecurityConstants
+public class SecurityCamelConstants
 {
     /**
      * 用户ID字段
