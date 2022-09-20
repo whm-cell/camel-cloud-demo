@@ -4,6 +4,8 @@ import com.camel.demo.core01.CacheService;
 import com.camel.demo.core01.factory.JDKProxy;
 import com.camel.demo.core01.workshop.impl.ACacheImpl;
 import com.camel.demo.core01.workshop.impl.BCacheImpl;
+import com.camel.demo.core02.factory.IFactory;
+import com.camel.demo.core02.factory.MySqlServerFactory;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -24,8 +26,14 @@ public class ApiTest {
         CacheService adapter = JDKProxy.getProxy(CacheService.class, new BCacheImpl());
 
         System.out.println(adapter.get("key"));
+    }
+
+    @Test
+    public void test2(){
+        IFactory factory = new MySqlServerFactory();
 
 
     }
+
 
 }
