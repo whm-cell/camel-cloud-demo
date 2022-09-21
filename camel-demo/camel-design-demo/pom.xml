@@ -12,9 +12,19 @@
     <artifactId>camel-design-demo</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>camel-design-demo-01</module>
-        <module>camel-design-demo-02</module>
-        <module>camel-design-demo-03</module>
+        <!-- 简单工厂模式 -->
+        <module>camel-0-design-demo-001</module>
+        <!-- 工厂模式 -->
+        <module>camel-0-design-demo-01</module>
+        <!-- 抽象工厂模式 -->
+        <module>camel-0-design-demo-02</module>
+        <!-- 建造者模式 -->
+        <module>camel-0-design-demo-03</module>
+        <!-- 原型模式 -->
+        <module>camel-0-design-demo-04</module>
+        <!-- 单例模式 -->
+        <module>camel-0-design-demo-05</module>
+        <module>camel-1-design-demo-06</module>
     </modules>
 
 </project>
