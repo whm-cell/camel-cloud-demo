@@ -25,6 +25,7 @@
         <!-- 单例模式 -->
         <module>camel-0-design-demo-05</module>
         <module>camel-1-design-demo-06</module>
+        <module>camel-1-design-demo-07</module>
     </modules>
 
 </project>

@@ -9,5 +9,5 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>原型模式</description>
-    <artifactId>camel-design-demo-04</artifactId>
+    <artifactId>camel-0-design-demo-04</artifactId>
 </project>

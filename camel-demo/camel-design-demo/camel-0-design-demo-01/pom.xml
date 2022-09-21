@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>设计模式之工厂模式</description>
-    <artifactId>camel-design-demo-01</artifactId>
+    <artifactId>camel-0-design-demo-01</artifactId>
 
     <dependencies>
         <dependency>

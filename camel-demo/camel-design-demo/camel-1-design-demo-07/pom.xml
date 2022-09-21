@@ -7,10 +7,10 @@
         <groupId>org.camel</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <description>简单工厂模式</description>
-    <artifactId>camel-0-design-demo-001</artifactId>
+    <description>设计模式之桥接模式</description>
+
+    <artifactId>camel-1-design-demo-07</artifactId>
 
     <dependencies>
         <dependency>
