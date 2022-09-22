@@ -32,6 +32,7 @@
         <module>camel-1-design-demo-08</module>
         <module>camel-1-design-demo-09</module>
         <module>camel-1-design-demo-10</module>
+        <module>camel-1-design-demo-11</module>
     </modules>
 
 </project>
