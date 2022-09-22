@@ -24,8 +24,14 @@
         <module>camel-0-design-demo-04</module>
         <!-- 单例模式 -->
         <module>camel-0-design-demo-05</module>
+        <!-- 适配器模式 -->
         <module>camel-1-design-demo-06</module>
+        <!-- 桥接模式 -->
         <module>camel-1-design-demo-07</module>
+        <!-- 组合模式 -->
+        <module>camel-1-design-demo-08</module>
+        <module>camel-1-design-demo-09</module>
+        <module>camel-1-design-demo-10</module>
     </modules>
 
 </project>
