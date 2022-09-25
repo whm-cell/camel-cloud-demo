@@ -1,24 +1,24 @@
 package com.camel.design.demo;
 
-public class SpeddState extends CourseStateVideo {
+public class PauseState extends CourseStateVideo {
 
     @Override
     public void play() {
-        super.courseVideoContext.setCourseVideoState(CourseVideoContext.PLAY_STATE);
+        super.courseVideoContext.setCourseStateVideo(CourseVideoContext.PLAY_STATE);
     }
 
     @Override
     public void speed() {
-        System.out.println("快进播放课程视频状态");
+        System.out.println("错误状态");
     }
 
     @Override
     public void pause() {
-        super.courseVideoContext.setCourseVideoState(CourseVideoContext.PAUSE_STATE);
+        System.out.println("暂停播放课程视频状态");
     }
 
     @Override
     public void stop() {
-        super.courseVideoContext.setCourseVideoState(CourseVideoContext.STOP_STATE);
+        super.courseVideoContext.setCourseStateVideo(CourseVideoContext.STOP_STATE);
     }
 }

@@ -1,9 +1,9 @@
-package com.camel.design.demo.版本1;
+package com.camel.design.demo.升级版本2;
 
 /**
  * Created by geely
  */
-public class FanXianPromotionStrategy implements PromotionStrategy{
+public class FanXianPromotionStrategy implements PromotionStrategy {
     @Override
     public void doPromotion() {
         System.out.println("返现促销,返回的金额存放到慕课网用户的余额中");

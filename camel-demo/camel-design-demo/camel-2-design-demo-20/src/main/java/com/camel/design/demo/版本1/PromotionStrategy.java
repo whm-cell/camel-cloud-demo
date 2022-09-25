@@ -1,4 +1,4 @@
-package com.geely.design.pattern.behavioral.strategy;
+package com.camel.design.demo.版本1;
 
 /**
  * Created by geely

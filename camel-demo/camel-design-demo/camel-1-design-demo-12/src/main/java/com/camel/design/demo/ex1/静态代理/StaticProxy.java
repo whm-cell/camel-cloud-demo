@@ -1,4 +1,4 @@
-package com.camel.design.demo.静态代理;/**  
+package com.camel.design.demo.ex1.静态代理;/**
   * @Title: StaticProxy     
   * @Description:        
   * @author: wanghaiming      

@@ -30,9 +30,26 @@
         <module>camel-1-design-demo-07</module>
         <!-- 组合模式 -->
         <module>camel-1-design-demo-08</module>
+
         <module>camel-1-design-demo-09</module>
+
         <module>camel-1-design-demo-10</module>
+
         <module>camel-1-design-demo-11</module>
+
+        <module>camel-1-design-demo-12</module>
+
+        <module>camel-2-design-demo-13</module>
+        <module>camel-2-design-demo-14</module>
+        <module>camel-2-design-demo-15</module>
+        <module>camel-2-design-demo-16</module>
+        <module>camel-2-design-demo-17</module>
+        <module>camel-2-design-demo-18</module>
+        <module>camel-2-design-demo-19</module>
+        <module>camel-2-design-demo-20</module>
+        <module>camel-2-design-demo-21</module>
+        <module>camel-2-design-demo-22</module>
+        <module>camel-2-design-demo-23</module>
     </modules>
 
 </project>

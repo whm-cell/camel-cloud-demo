@@ -1,4 +1,4 @@
-package com.camel.design.demo.db;/**  
+package com.camel.design.demo.ex1.db;/**
   * @Title: DynamicDataSource     
   * @Description:        
   * @author: wanghaiming      

@@ -1,4 +1,4 @@
-package com.geely.design.pattern.behavioral.iterator;
+package com.camel.design.demo;
 
 /**
  * Created by geely.

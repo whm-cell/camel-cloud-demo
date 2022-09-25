@@ -1,9 +1,9 @@
 package com.camel.design.demo;
 
-public class OpenCourseVideo implements Command {
+public class CloseCourseVideo implements Command {
     private CourseVideo courseVideo;
 
-    public OpenCourseVideo(CourseVideo courseVideo) {
+    public CloseCourseVideo(CourseVideo courseVideo) {
         this.courseVideo = courseVideo;
     }
 

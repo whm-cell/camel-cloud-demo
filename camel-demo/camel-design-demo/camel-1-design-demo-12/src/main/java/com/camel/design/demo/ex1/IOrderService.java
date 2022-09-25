@@ -1,4 +1,4 @@
-package com.geely.design.pattern.structural.proxy;
+package com.camel.design.demo.ex1;
 
 /**
  * Created by geely
